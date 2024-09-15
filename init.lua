@@ -1,4 +1,4 @@
-require("suprtrtl")
+require("suprtrtl.remap")
 
 local vim = vim
 local Plug = vim.fn['plug#']
