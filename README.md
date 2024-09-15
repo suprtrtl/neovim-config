@@ -10,6 +10,8 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 ## Plugin List
 
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [treesitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
+- [harpoon](https://github.com/ThePrimeagen/harpoon)
 
 ## Remaps
 (leader) = " "
