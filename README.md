@@ -30,3 +30,7 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 | `leader`ps | `builtin.grep({search = vim.fn.input("Grep > ") })` | Grep |
 
 ### Harpoon
+ Keystrokes | Lua Function | Action |
+| ---------- | ------------ | ------ |
+| `leader`a | `harpoon.mark.add_file()` | Add to Harpoon |
+| `C-e` | `harpoon.ui.quick_menu()` | Harpoon UI |
