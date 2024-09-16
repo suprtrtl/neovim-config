@@ -15,7 +15,7 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 - [harpoon](https://github.com/ThePrimeagen/harpoon)
 
 ## Remaps
-`leader` = " "
+#### `leader` = " "
 
 ### Standard
 | Keystrokes | Lua Function | Action |
