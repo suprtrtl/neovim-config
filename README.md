@@ -32,5 +32,9 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 ### Harpoon
  Keystrokes | Lua Function | Action |
 | ---------- | ------------ | ------ |
-| `leader`a | `harpoon.mark.add_file()` | Add to Harpoon |
-| `C-e` | `harpoon.ui.quick_menu()` | Harpoon UI |
+| `leader`a | `harpoon.mark.add_file` | Add to Harpoon |
+| `C-e` | `harpoon.ui.toggle_quick_menu` | Harpoon UI |
+| `C-h` | `harpoon.ui.nav_file(1)` | Harpoon File 1 |
+| `C-t` | `harpoon.ui.nav_file(2)` | Harpoon File 2 |
+| `C-n` | `harpoon.ui.nav_file(3)` | Harpoon File 3 |
+| `C-s` | `harpoon.ui.nav_file(4)` | Harpoon File 4 |
