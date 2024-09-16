@@ -2,7 +2,7 @@
 This includes all the plugins, remaps and everything else
 
 ## Plugin Manager
-Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
+Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)\n
 To access [lazy](https://github.com/folke/lazy.nvim) use the `:Lazy` function 
 
 ## Theme
