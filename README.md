@@ -3,6 +3,7 @@ This includes all the plugins, remaps and everything else
 
 ## Plugin Manager
 Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
+To access [lazy](https://github.com/folke/lazy.nvim) use the `:Lazy` function 
 
 ## Theme
 Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
@@ -17,7 +18,9 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 `leader` = " "
 
 ### Standard
-- `leader`pv => vim.cmd.Ex (Opens File Explorer)
+| Keystrokes | Lua Function | Action |
+| ---------- | ------------ | ------ |
+| `leader`pv | `vim.cmd.Ex` | Project View |
 
 ### Telescope
 | Keystrokes | Lua Function | Action |
@@ -25,3 +28,5 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 | `leader`pf | `builtin.find_files` | Open Telescope |
 | `C-p` | `builtin.git_files` | Git Telescope |
 | `leader`ps | `builtin.grep({search = vim.fn.input("Grep > ") })` | Grep |
+
+### Harpoon
