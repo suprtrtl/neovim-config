@@ -1,4 +1,3 @@
-
 function ColorMyPencils(color)
 
 	color = color or "tokyodark"

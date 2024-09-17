@@ -1,4 +1,4 @@
-# My Neovim Config Folder
+ My Neovim Config Folder
 This includes all the plugins, remaps and everything else
 
 ## Plugin Manager

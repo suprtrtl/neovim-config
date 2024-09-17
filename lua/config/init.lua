@@ -1,1 +1,3 @@
-print("Hello from suprtrtl")
+require('config.remap')
+require('config.set')
+require('config.theme')
