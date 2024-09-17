@@ -12,6 +12,16 @@ return {
 	config = function ()
 
 			local lsp_zero = require('lsp-zero')
+                
+            local cmp_lsp = require("cmp_nvim_lsp")
+
+
+            local capabilities = vim.tbl_deep_extend(
+                "force",
+                {},
+                vim.lsp.protocol.make_client_capabilities(),
+                cmp_lsp.default_capabilities() )
+
 
 		-- lsp_attach is where you enable features that only work
 -- if there is a language server active in the file
@@ -94,7 +104,13 @@ return {
 				['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
 				['<Tab>'] = cmp.mapping.confirm( { select = true } ),
 				['<C-Space>'] = cmp.mapping.complete(),
-			} )
+			} ),
+
+            sources = cmp.config.sources({
+                { name = 'nvim_lsp' },
+            }, {
+                { name = 'buffer' },
+            })
 		} )
 	end
 }
