@@ -38,3 +38,31 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 | `C-t` | `harpoon.ui.nav_file(2)` | Harpoon File 2 |
 | `C-n` | `harpoon.ui.nav_file(3)` | Harpoon File 3 |
 | `C-s` | `harpoon.ui.nav_file(4)` | Harpoon File 4 |
+
+### LSP
+Keystrokes | Lua Function | Action |
+| ---------- | ------------ | ------ |
+| K | `vim.lsp.buf.hover()` | IDK |
+| gd | `vim.lsp.buf.definition()` | IDK |
+| gD | `vim.lsp.buf.declaration()` | IDK |
+| gi | `vim.lsp.buf.implementation()` | IDK |
+| go | `vim.lsp.buf.type_definition()` | IDK |
+| gr | `vim.lsp.buf.references()` | IDK |
+| gs | `vim.lsp.buf.signature_help()` | IDK |
+| `F1` | `vim.lsp.buf.rename()` | IDK |
+| `F2` | `vim.lsp.buf.({async = true})` | IDK |
+| `F3` | `vim.lsp.bug.code_action()` | IDK |
+
+### CMP
+`local cmp_select = {behavior = cmp.SelectBehavior.Select}`
+Keystrokes | Lua Function | Action |
+| ---------- | ------------ | ------ |
+| `C-p` | `cmp.mapping.select_prev_item(cmp_select)`| IDK |
+| `C-n` | `cmp.mapping.select_next_item(cmp_select)`| IDK |
+| `Tab` | `cmp.mapping.confirm( {select = true } )`| Completes Prompt |
+| `C-Space` | `cmp.mapping.complete()`| IDK |
+
+### Vim Fugitive
+Keystrokes | Lua Function | Action |
+| ---------- | ------------ | ------ |
+| `leader`gs | vim.cmd.Git | Git Status |
