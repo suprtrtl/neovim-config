@@ -42,8 +42,8 @@ Keystrokes | Lua Function | Action |
 ## Telescope
 | Keystrokes | Lua Function | Action |
 | ---------- | ------------ | ------ |
-| `leader`pf | `builtin.find_files` | (p)roject (f)iles |
-| `C-p` | `builtin.git_files` | Git (p)roject files |
+| `leader`FF | `builtin.find_files` | (F)ind all (F)iles |
+| `leader`ff | `builtin.git_files` | (f)ind git (f)iles |
 | `leader`ps | `builtin.grep({search = vim.fn.input("Grep > ") })` | (p)roject (s)earch |
 
 ## Vim Fugitive
