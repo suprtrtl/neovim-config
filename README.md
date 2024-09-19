@@ -16,3 +16,7 @@ Colors: [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [treesitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+
+## More info
+More information about the setup can be found at [neovim-config/info](https://github.com/suprtrtl/neovim-config/tree/master/info)
