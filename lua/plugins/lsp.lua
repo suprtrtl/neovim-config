@@ -16,19 +16,20 @@ return {
         local servers = {
             'clangd',
             'gopls',
+            'lua_ls',
             'pyright',
             'rust_analyzer',
             'ts_ls',
         }
 
 
-        -- Iterates through servers in lua/config/servers.lua
         for _, s in ipairs(servers) do
-            lsp[s].setup {
+            lsp[s].setup({
 
                 -- Adds Defualt Capabilities
-                capabilities = capabilities
-            }
+                capabilities = capabilities,
+                root_dir = lsp.util.find_git_ancestor,
+            })
         end
 
 
